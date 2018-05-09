@@ -1,0 +1,40 @@
+#clockdiv h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #034688;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 16px;
+    text-transform: uppercase;
+}
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    /*background: rgba(255, 255, 255, 0.63);*/
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px auto;
+    padding: 20px;
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    left: 5.50%;
+}
+#clockdiv>div {
+    padding: 5px 25px;
+    border-radius: 3px;
+    background: #034688;
+    display: inline-block
+}
+#clockdiv div>span {
+    padding: 0;
+    border-radius: 3px;
+    font-size: 25px;
+    display: inline-block
+}
+#clockdiv .smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}

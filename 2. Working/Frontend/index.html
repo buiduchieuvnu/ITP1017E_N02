@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="vender/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="vender/font-awesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/main-menu.css"/>
+        <link rel="stylesheet" href="css/countdown-timer.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        
+    </head>
+    <body>
+        <header>
+            <div id="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-3">
+                            <span class="class-group-title"> 
+                                <span class="class-name">tên lớp:</span> 
+                                php1017e
+                            </span>
+                            <span class="class-group-title">
+                                <span class="group-name">Nhóm:</span>
+                                ITP1017E N0 2
+                            </span>
+                        </div>
+                        <div class="col-md-7 col-sm-9">
+                            <ul class="menu-top">
+                                <li>
+                                    <div class="menu-top-title">
+                                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                                        Login
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="menu-top-sub">
+                                        <div class="main-nick">
+                                            <label for="account">Username</label>
+                                            <input type="text" name="username" id="account" placeholder=""/>
+                                        </div>
+                                        <div class="main-password">
+                                            <label for="password">Password</label>
+                                            <input type="password" name="password" id="password" placeholder=""/>
+                                        </div>
+                                        <div class="save">
+                                            <label><input type="checkbox" value=""> <span>Ghi nhớ</span></label>
+                                        </div>
+                                        <div class="login-register">
+                                            <div class="clearfix">
+                                                <button type="button" class="btn btn-primary float-left">Login</button>
+                                                <button type="button" class="btn btn-primary float-right">Register</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-top-title">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        Wishlist
+                                        <span>(0)</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-top-title">
+                                        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                        Shopping cart (0): <span>$0.00</span> 
+                                    </div>
+                                </li>
+                            </ul>
+                            <div id="imaginary_container"> 
+                                <div class="input-group stylish-input-group input-append">
+                                    <input type="text" class="form-control"  placeholder="Search" >
+                                    <span class="input-group-addon">
+                                        <button type="submit">
+                                            <span class="glyphicon glyphicon-search"></span>
+                                        </button>  
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="logo">
+                                <strong>fashion shop</strong>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="images/shipping-dispatch-2.png" />
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="header-widget-area">
+                                <div class="item facebook">
+                                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="item twitter">
+                                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="item google">
+                                    <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="item youtube">
+                                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div id="main-menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        Shop
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="sub-menu">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="title-sub-menu">
+                                                    <div class="padding-on">
+                                                        <span>Product Categories</span>
+                                                    </div>
+                                                </div>
+                                                <div class="content-sub-menu">
+                                                    <div class="padding-on">
+                                                        <a href="#">Category – Right sidebar</a>
+                                                        <a href="#">Category – Left sidebar</a>
+                                                        <a href="#">Category – Full width</a>
+                                                        <a href="#">Category – Top slider 1</a>
+                                                        <a href="#">Category – Top slider 2</a>
+                                                        <a href="#">Category – Top banner</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="title-sub-menu">
+                                                    <div class="padding-on">
+                                                        <span>Product Categories</span>
+                                                    </div>
+                                                </div>
+                                                <div class="content-sub-menu">
+                                                    <div class="padding-on">
+                                                        <a href="#">Category – Right sidebar</a>
+                                                        <a href="#">Category – Left sidebar</a>
+                                                        <a href="#">Category – Full width</a>
+                                                        <a href="#">Category – Top slider 1</a>
+                                                        <a href="#">Category – Top slider 2</a>
+                                                        <a href="#">Category – Top banner</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="title-sub-menu">
+                                                    <div class="padding-on">
+                                                        <span>Product Categories</span>
+                                                    </div>
+                                                </div>
+                                                <div class="content-sub-menu">
+                                                    <div class="padding-on">
+                                                        <a href="#">Category – Right sidebar</a>
+                                                        <a href="#">Category – Left sidebar</a>
+                                                        <a href="#">Category – Full width</a>
+                                                        <a href="#">Category – Top slider 1</a>
+                                                        <a href="#">Category – Top slider 2</a>
+                                                        <a href="#">Category – Top banner</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="title-sub-menu">
+                                                    <div class="padding-on">
+                                                        <span>Product Categories</span>
+                                                    </div>
+                                                </div>
+                                                <div class="content-sub-menu">
+                                                    <div class="padding-on">
+                                                        <a href="#">Category – Right sidebar</a>
+                                                        <a href="#">Category – Left sidebar</a>
+                                                        <a href="#">Category – Full width</a>
+                                                        <a href="#">Category – Top slider 1</a>
+                                                        <a href="#">Category – Top slider 2</a>
+                                                        <a href="#">Category – Top banner</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#"> Pages </a>
+                                </li>
+                                <li> <a href="#"> Blog </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--MAIN MENU-->
+            
+            <div id="main-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="slide-img">
+                                <img src="images/slider2.jpg" />
+                            </div>
+                            
+                            <!--THỜI GIAN GIẢM GIÁ (THỜI GIAN ĐẾM NGƯỢC) -->
+                            <div id="clockdiv">
+                                <h2>discount time</h2>
+                                <div>
+                                    <span class="days"></span>
+                                    <div class="smalltext">Days</div>
+                                </div>
+                                <div>
+                                    <span class="hours"></span>
+                                    <div class="smalltext">Hours</div>
+                                </div>
+                                <div>
+                                    <span class="minutes"></span>
+                                    <div class="smalltext">Minutes</div>
+                                </div>
+                                <div>
+                                    <span class="seconds"></span>
+                                    <div class="smalltext">Seconds</div>
+                                </div>
+                            </div>
+                            <!--/ THỜI GIAN GIẢM GIÁ (THỜI GIAN ĐẾM NGƯỢC) -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="product_portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="images/product/petit-clothing.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="images/product/printed-catalog.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="images/product/premium-denim.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="builder-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-md-push-8 col-sm-12 hidden-sm hidden-xs">
+                            <div class="section-big-wrapper"> 
+                                <h3 class="section-big">
+                                    Fashion Blog                
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-md-pull-4 col-sm-12">
+                            <div class="section-big-wrapper"> 
+                                <h3 class="section-big">
+                                    Best Sellers               
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="vender/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="vender/bootstrap/js/popper.min.js"></script>
+        <script type="text/javascript" src="vender/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="vender/font-awesome/less/font-awesome.less"></script>
+        
+        <script type='text/javascript'>
+            //<![CDATA[
+            function getTimeRemaining(endtime) {
+                var t = Date.parse(endtime) - Date.parse(new Date());
+                var seconds = Math.floor((t / 1000) % 60);
+                var minutes = Math.floor((t / 1000 / 60) % 60);
+                var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+                var days = Math.floor(t / (1000 * 60 * 60 * 24));
+                    return {
+                        'total': t,
+                        'days': days,
+                        'hours': hours,
+                        'minutes': minutes,
+                        'seconds': seconds
+                    };
+            }
+
+            function initializeClock(id, endtime) {
+                var clock = document.getElementById(id);
+                var daysSpan = clock.querySelector('.days');
+                var hoursSpan = clock.querySelector('.hours');
+                var minutesSpan = clock.querySelector('.minutes');
+                var secondsSpan = clock.querySelector('.seconds');
+
+                function updateClock() {
+                    var t = getTimeRemaining(endtime);
+
+                    daysSpan.innerHTML = t.days;
+                    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+                    if (t.total <= 0) {
+                        clearInterval(timeinterval);
+                    }
+                }
+
+                updateClock();
+                var timeinterval = setInterval(updateClock, 1000);
+              }
+
+              var deadline = new Date(Date.parse(new Date()) + 30 * 24 * 60 * 60 * 1000);
+              initializeClock('clockdiv', deadline);
+              //]]>
+        </script>
+    </body>
+</html>
