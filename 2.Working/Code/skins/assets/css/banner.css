@@ -1,0 +1,36 @@
+.slick-prev {
+    left: 0;
+}
+.slick-prev, .slick-next {
+    width: 30px;
+    height: 45px;
+    z-index: 9;
+    background: #000;
+    opacity: 0.7;
+}
+.slick-next {
+    right: 0;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background: #ff5500;
+}
+.banner {
+    margin-top: 35px;
+}
+.slick-prev:before, .slick-next:before {
+    color: #fff;
+}
+.banner .slick-arrow{
+    display: none !important;
+}
+.banner:hover .slick-arrow{
+    display: inline-block !important;
+}
+
+.slick-dots {
+    bottom: 0;
+}
+.slick-dots li button::before {
+    font-size: 30px;
+    line-height: 15px;
+}

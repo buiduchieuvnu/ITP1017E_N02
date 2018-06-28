@@ -1,0 +1,19 @@
+.input-group {
+    padding: 8px 0;
+}
+.input-group .search-panel {
+    width: 20%;
+}
+.input-group .search-panel button {
+    width: 100%;
+}
+.input-group .input-group-btn button {
+    border-radius: 0;
+}
+.input-group .title-search button {
+    width: 100%;
+    background: #ff5500;
+    border: 1px solid #ff5500;
+    color: #ffffff;
+    text-transform: uppercase;
+}

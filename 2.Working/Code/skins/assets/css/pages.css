@@ -1,0 +1,361 @@
+a:hover {
+    color: #ff5500;
+}
+a:focus, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+.clearfix {
+    clear: both;
+}
+/*pages-wapper col-sm-3*/
+#header-bottom #nav-header-bottom {
+    display: none;
+    /*overflow: hidden;*/
+    width: 100%;
+    height: 0;
+}
+#header-bottom .megamenu-content-sidebar:hover #nav-header-bottom {
+    display: block;
+    width: 100%;
+    height: 447px;
+    z-index: 9999;
+    position: absolute;
+    background: #fff;
+/*    transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -webkit-transition: height 0.3s;
+    -o-transition: height 0.3s;*/
+}
+#breadcrumbs {
+    padding: 30px 0 0;
+    margin-bottom: 0;
+}
+.breadcrumb {
+  background: rgba(245, 245, 245, 0); 
+  border: 0px solid rgba(245, 245, 245, 1); 
+  border-radius: 25px; 
+  display: block;
+}
+
+.btn-bread{
+    margin-top:10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+
+.block-content.filter-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+/******************************* Color *******************************/
+.colors {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.color {    
+    display: inline-block;  
+    vertical-align: middle; 
+    margin-right: 10px; 
+    height: 2em;    
+    width: 2em; 
+    border-radius: 2px;
+}
+.colors .checkbox {
+    display: inline-block;
+    padding-left: 8px;
+}
+.colors .checkbox input[type="checkbox"] {
+    display: none;
+}
+.colors .checkbox:hover {
+    cursor: pointer;
+}
+.colors .icons_checkbox_red {
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid #ff0000;
+    background: #ff0000;
+}
+.colors .icons_checkbox_yellow {
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid #ffff05;
+    background: #ffff05;
+}
+.colors .icons_checkbox_orange {
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid #f5b505;
+    background: #f5b505;
+}
+.colors .icons_checkbox_blue {
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid #5100ff;
+    background: #5100ff;
+}
+.colors .icons_checkbox_Brown {
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid #753a3a;
+    background: #753a3a;
+}
+.colors .checkbox:hover .icons_checkbox_red {
+    border: 3px solid #141414;
+    background: #ff0000;
+}
+.colors .checkbox:hover .icons_checkbox_yellow {
+    border: 3px solid #141414;
+    background: #ffff05;
+}
+.colors .checkbox:hover .icons_checkbox_orange {
+    border: 3px solid #141414;
+    background: #f5b505;
+}
+.colors .checkbox:hover .icons_checkbox_blue {
+    border: 3px solid #141414;
+    background: #5100ff;
+}
+.colors .checkbox:hover .icons_checkbox_Brown {
+    border: 3px solid #141414;
+    background: #753a3a;
+}
+.colors .checkbox input[type="checkbox"]:checked + .icons_checkbox_red{
+    border: 3px solid #141414;
+    background: #ff0000;
+}
+.colors .checkbox input[type="checkbox"]:checked + .icons_checkbox_yellow{
+    border: 3px solid #141414;
+    background: #ffff05;
+}
+.colors .checkbox input[type="checkbox"]:checked + .icons_checkbox_orange{
+    border: 3px solid #141414;
+    background: #f5b505;
+}
+.colors .checkbox input[type="checkbox"]:checked + .icons_checkbox_blue{
+    border: 3px solid #141414;
+    background: #5100ff;
+}
+.colors .checkbox input[type="checkbox"]:checked + .icons_checkbox_Brown{
+    border: 3px solid #141414;
+    background: #753a3a;
+}
+/******************************* /Color *******************************/
+.block.filter {
+    margin-bottom: 20px;
+}
+.block.filter .filter-title {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+}
+.block-title:before {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.block-title:before {
+    background-color: #ff5500;
+}
+.block-title strong {
+    font-size: 18px !important;
+    text-transform: uppercase;
+    color: #444;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.block-subtitle {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.block-content.filter-content .filter-options-title {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.filter-options-content {
+    border-bottom: 1px solid #eee;
+    padding:  10px 0;
+}
+.filter-options-content .items .my.item a label {
+    font-weight: normal;
+    font-size: 12px;
+}
+.filter-options-content .items .my.item a label input {
+    position: relative;
+    top: -3px;
+    margin-right: 5px;
+}
+.filter-options-content .items .my.item .amount {
+    float: right;
+    text-decoration: none;
+}
+.filter-options-title:nth-last-child(2) {
+    padding: 10px 0 0;
+}
+
+.products-sidebar {
+    margin-top: 20px;
+}
+.block-content-products .box-image {
+    width: 30%;
+    float: left;
+    border: 1px solid #ddd;
+}
+.block-content-products .box-image:hover {
+    border: 1px solid #f50;
+}
+.block-content-products .product-item-details {
+    width: 70%;
+    float: right;
+    padding-left: 12px;
+}
+.block-content-products .product-item-details .product-name {
+    font-size: 14px;
+    color: #000;
+}
+.block-content-products .product-item-details .product-name:hover {
+    color: #f50;
+}
+.block-content-products .evaluate-product i {
+    color: gold;
+}
+.block-content-products .price-product {
+    font-size: 20px;
+    color: #ff0000;
+}
+.block-content-products .product-item {
+    margin-bottom: 20px;
+}
+.block-content-products .product-item:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+
+/*Content col-sm-9*/
+.page-title {
+    font-size: 166.6%;
+    color: #444;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 27px;
+}
+.page-title:before {
+    content: "";
+    width: 70px;
+    height: 3px;
+    display: inline-block;
+    background-color: #ff5500;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+
+
+
+.toolbar {
+    padding: 10px 0 5px;
+    margin-bottom: 30px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.toolbar .modes .modes-mode {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #e9e9e9;
+}
+.toolbar .modes .modes-mode:hover {
+    background-color: #ff5500;
+}
+.toolbar .modes .mode-grid {
+    background-color: #ff5500;
+}
+.toolbar .modes .mode-grid {
+    margin-right: 5px;
+    background-image: url(../img/icons/icon-image.png);
+    background-repeat: no-repeat;
+    background-position: -61px -171px;
+}
+.toolbar .modes .mode-list {
+    margin-right: 5px;
+    background-image: url(../img/icons/icon-image.png);
+    background-repeat: no-repeat;
+    background-position: -14px -212px;
+}
+.toolbar .modes .mode-list:hover {
+    background-position: -62px -211px;
+}
+.toolbar .sorter .sort-asc:before {
+    content: '\f176';
+    display: inline-block;
+    font-family: FontAwesome;
+    font-synthesis: weight style;
+    font-size-adjust: none;
+    font-kerning: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    font-size: 13px;
+}
+.toolbar .sorter, 
+.toolbar .limiter, 
+.toolbar .pages {
+    padding: 5px 0;
+}
+.toolbar .pages ul {
+    float: right;
+}
+.toolbar .pages ul li {
+    display: inline-block;
+}
+.toolbar .pages strong.active {
+    color: #fff;
+    padding: 5px 10px;
+    background: #ff5500;
+    border: 1px solid #ff5500;
+}
+.toolbar .pages .page {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.toolbar .pages .page:hover {
+    color: #fff;
+    border: 1px solid #ff5500;
+    background: #ff5500;
+}
+.toolbar .pages .page.next:before {
+    content: '\f105';
+    display: inline-block;
+    font-family: FontAwesome;
+    font-synthesis: weight style;
+    font-size-adjust: none;
+    font-kerning: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+#pages-wapper .ltabs-items-inner {
+    border: none;
+    margin-bottom: 25px;
+}
